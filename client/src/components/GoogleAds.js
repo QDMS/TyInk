@@ -11,7 +11,7 @@ class GoogleAds extends Component {
         className="adsbygoogle"
         style={{ display: "block" }}
         data-ad-client="ca-pub-3467727257298053"
-        data-ad-slot="8075248527"
+        data-ad-slot="2189594501"
         data-ad-format="auto"
         data-full-width-responsive="true"
       ></ins>
