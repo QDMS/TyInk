@@ -4,6 +4,7 @@ import React from "react";
 import toast from "react-hot-toast";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
+import GoogleAds from "../components/GoogleAds";
 import { showLoading, hideLoading } from "../redux/alertsSlice";
 
 function Login() {
@@ -52,6 +53,9 @@ function Login() {
             Click Here To Register
           </Link>
         </Form>
+        <div>
+          <GoogleAds />
+        </div>
       </div>
     </div>
   );
